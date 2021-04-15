@@ -14,9 +14,19 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@fontsource/lora": "^4.2.2",
+    "@fontsource/varela": "^4.2.2",
+    "bootstrap": "^4.6.0",
     "gatsby": "^3.2.1",
+    "gatsby-plugin-react-helmet": "^4.3.0",
+    "gatsby-plugin-typography": "^3.3.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-lincoln": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "2.2.1"

@@ -5,6 +5,17 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `Verikoe-info`,
+    siteUrl: `https://www.veriarvot.info`,
+    description: `Kaikkien verikokeiden tiedot helposti ja nopeasti`,
+  },
+  plugins: ["gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `./src/utils/typography`,
+      },
+    },
+  ],
 }
