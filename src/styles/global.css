@@ -1,7 +1,7 @@
-.main{
-    margin: 2em;
-}
-.center{
-    text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+.nounder{
+    text-decoration: none;
 }
