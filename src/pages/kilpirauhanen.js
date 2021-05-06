@@ -19,17 +19,14 @@ export default function Kilpirauha() {
       <div className="my-8 mx-2">
       <h1>S-TSH | Tyreotropiini </h1>
       <p>Viitearvot<br />
-
-        Lapset 2 – 11 v: 0,6 – 6,3 mIU/l<br />
-
-        Lapset 12 – 17 v: 0,5 – 4,9 mIU/l<br />
-
-        Aikuiset ≥ 18 v: 0,4 – 4,0 mIU/l</p>
+        Lapset 2 – 11v: 0,6 – 6,3 mIU/l<br />
+        Lapset 12 – 17v: 0,5 – 4,9 mIU/l<br />
+        Aikuiset ≥ 18v: 0,4 – 4,0 mIU/l</p>
       </div>
       <div className="my-8 mx-2">
         <h1>S-T4V | Tyroksiini, vapaa</h1>
       <p>Viitearvot<br />
-        Viitearvo: 10 – 21 pmol/l</p>
+        Kaikki: 10 – 21 pmol/l</p>
       </div>
       <div className="my-8 mx-2">
       <h1>S-T3V | Trijodityroniini, vapaa</h1>
