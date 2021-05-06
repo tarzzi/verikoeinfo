@@ -9,7 +9,9 @@ export default function Home() {
   return <div>
     <Helmet>
       <title>Veriarvot.info</title>
-      <script src={withPrefix('doorbell.js')} type="text/javascript" />
+      <script src={withPrefix('doorbell.js')} type='text/javascript' />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-C9XRNM6GQY"></script>
+      <script src={withPrefix('ga.js')} type='text/javascript' />
     </Helmet>
     <Header />
     <div className='text-center lg:text-3xl md:text-3xl sm:text-2xl py-3 my-1'>Valitse kokeen kategoria, niin näet tarkemmat tiedot</div>

@@ -12,6 +12,7 @@ export default function Reuma() {
         Sitrulliinivasta-ainemääritys (CCPAb) on herkempi ja tarkempi tutkimus nivelreuman toteamiseksi. Tämäkin testi mittaa elimistössä syntyneitä vasta-aineita omia kudoksia kohtaan. Arvo on selvästi koholla useimmilla nivelreumapotilailla (noin 60–70 prosentilla), mutta ei siis kaikilla. Muissa sidekudostaudeissa sitrulliinivasta-aineita ei yleensä synny, joten koe on reuman toteamisessa tarkempi kuin reumafaktori.
 
       </p>
+
     </Layout>
   );
 }
