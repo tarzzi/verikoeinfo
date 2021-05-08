@@ -11,6 +11,21 @@ export default function Munuaiset() {
         Yleisimpiä nestetasapainon seurantakokeita ovat natrium (NA) ja kalium (K). Niiden määrittämistä käytetään esim. ripulin, sydänsairauksien ja kohonneen verenpaineen tutkimuksissa.
 
       </p>
+
+      <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center '>
+        <div className="my-8 mx-2">
+          <h1>P-KREA | Kreatiini</h1>
+          <p></p>
+        </div>
+        <div className="my-8 mx-2">
+          <h1>U-K | Kalium</h1>
+          <p></p>
+        </div>
+        <div className="my-8 mx-2">
+          <h1>U-NA | Natrium </h1>
+          <p></p>
+        </div>
+      </div>
     </Layout>
   );
 }

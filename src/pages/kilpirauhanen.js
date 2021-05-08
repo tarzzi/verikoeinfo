@@ -16,22 +16,24 @@ export default function Kilpirauha() {
           Joskus lisätutkimuksena käytetään myös S-T3V-mittausta, jos epäillään kilpirauhasen toiminnan häiriötä.
         </p>
       </div>
-      <div className="my-8 mx-2">
-        <h1>S-TSH | Tyreotropiini </h1>
-        <p>Viitearvot<br />
-          Lapset 2 – 11v: 0,6 – 6,3 mIU/l<br />
-          Lapset 12 – 17v: 0,5 – 4,9 mIU/l<br />
-          Aikuiset ≥ 18v: 0,4 – 4,0 mIU/l</p>
+      <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center '>
+        <div className="my-8 mx-2 items-center">
+          <h1>S-TSH | Tyreotropiini </h1>
+          <p>Viitearvot<br />
+            Lapset 2 – 11v: 0,6 – 6,3 mIU/l<br />
+            Lapset 12 – 17v: 0,5 – 4,9 mIU/l<br />
+            Aikuiset ≥ 18v: 0,4 – 4,0 mIU/l</p>
+          </div>
+          <div className="my-8 mx-2">
+            <h1>S-T4V | Tyroksiini, vapaa</h1>
+          <p>Viitearvot<br />
+            Kaikki: 10 – 21 pmol/l</p>
         </div>
         <div className="my-8 mx-2">
-          <h1>S-T4V | Tyroksiini, vapaa</h1>
-        <p>Viitearvot<br />
-          Kaikki: 10 – 21 pmol/l</p>
-      </div>
-      <div className="my-8 mx-2">
-        <h1>S-T3V | Trijodityroniini, vapaa</h1>
-        <p>Viitearvot<br />
-        Kaikki: 3,5-6,5 pmol/l</p>
+          <h1>S-T3V | Trijodityroniini, vapaa</h1>
+          <p>Viitearvot<br />
+          Kaikki: 3,5-6,5 pmol/l</p>
+        </div>
       </div>
 
     </Layout>

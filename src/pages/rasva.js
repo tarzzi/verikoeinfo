@@ -20,8 +20,41 @@ export default function Rasva() {
         ”Hyvä kolesteroli” eli HDL kuljettaa kolesterolia pois kudoksista, myös valtimoiden seinämästä. Tämä on luonnollisesti hyödyllistä ja korkea HDL -kolesterolin pitoisuus on valtimosairauksien ehkäisyn kannalta hyväksi. Jos pitoisuus on pieni, valtimosairauksien vaara suurenee.
 
         Triglyseridit ovat merkittävä energian varalähde elimistössä. Jos verenkierrossa on liikaa triglyseridejä, osa niistä tallennetaan rasvakudokseen. Kohonnut triglyseridien ja LDL -kolesterolipitoisuus viittaa kohonneeseen sydän- ja verisuonitautien riskiin.
-
       </p>
+
+      <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-center my-5'>
+        <div className="">
+          <h1>fS-LIPIDIT | Veren</h1>
+          <p> <br />
+
+          </p>
+        </div>
+        <div className="">
+          <h1>fS-KOL | Kolesteroli</h1>
+          <p> <br />
+
+          </p>
+        </div>
+        <div className="">
+          <h1>fS-HDL</h1>
+          <p> <br />
+
+          </p>
+        </div>
+        <div className="">
+          <h1>fS-LDL</h1>
+          <p> <br />
+
+          </p>
+        </div>
+        <div className="">
+          <h1>fS-TRIGLY</h1>
+          <p> <br />
+
+          </p>
+        </div>
+      </div>
+
     </Layout>
   );
 }
