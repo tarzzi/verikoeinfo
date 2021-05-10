@@ -3,6 +3,8 @@ import Layout from "../components/layout"
 import Grid from "../components/grid"
 import Card from "../components/card"
 import Title from "../components/title"
+import Ctitle from "../components/cTitle"
+import Values from "../components/Values"
 
 export default function Kilpirauha() {
   return (
@@ -12,21 +14,22 @@ export default function Kilpirauha() {
       </div>
       <Grid>
         <Card>
-          <h1>S-TSH | Tyreotropiini</h1>
-          <p>
+          <Ctitle>S-TSH | Tyreotropiini </Ctitle>
+          <Values>
             Lapset 2 – 11v: 0,6 – 6,3 mIU/l<br />
             Lapset 12 – 17v: 0,5 – 4,9 mIU/l<br />
-            Aikuiset: 0,4 – 4,0 mIU/l</p>
+            Aikuiset: 0,4 – 4,0 mIU/l
+          </Values>
           </Card>
         <Card>
-            <h1>S-T4V | Tyroksiini, vapaa</h1>
-          <p>
-            Kaikki: 10 – 21 pmol/l</p>
+            <Ctitle>S-T4V | Tyroksiini, vapaa</Ctitle>
+          <Values>
+            Kaikki: 10 – 21 pmol/l</Values>
         </Card>
         <Card>
-          <h1>S-T3V | Trijodityroniini, vapaa</h1>
-          <p>
-          Kaikki: 3,5-6,5 pmol/l</p>
+          <Ctitle>S-T3V | Trijodityroniini, vapaa</Ctitle>
+          <Values>
+          Kaikki: 3,5-6,5 pmol/l</Values>
         </Card>
       </Grid>
 

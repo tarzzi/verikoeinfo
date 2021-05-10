@@ -3,6 +3,8 @@ import Layout from "../components/layout"
 import Grid from "../components/grid"
 import Card from "../components/card"
 import Title from "../components/title"
+import Ctitle from "../components/cTitle"
+import Values from "../components/Values"
 
 export default function Rasva() {
   return (
@@ -11,34 +13,34 @@ export default function Rasva() {
 
       <Grid>
         <Card>
-          <h1>fS-LIPIDIT | Veren</h1>
-          <p> <br />
+          <Ctitle>fS-LIPIDIT | Veren</Ctitle>
+          <Values> <br />
 
-          </p>
+          </Values>
         </Card>
         <Card>
-          <h1>fS-KOL | Kolesteroli</h1>
-          <p> <br />
+          <Ctitle>fS-KOL | Kolesteroli</Ctitle>
+          <Values> <br />
 
-          </p>
+          </Values>
         </Card>
         <Card>
-          <h1>fS-HDL</h1>
-          <p> <br />
+          <Ctitle>fS-HDL</Ctitle>
+          <Values> <br />
 
-          </p>
+          </Values>
         </Card>
         <Card>
-          <h1>fS-LDL</h1>
-          <p> <br />
+          <Ctitle>fS-LDL</Ctitle>
+          <Values> <br />
 
-          </p>
+          </Values>
         </Card>
         <Card>
-          <h1>fS-TRIGLY</h1>
-          <p> <br />
+          <Ctitle>fS-TRIGLY</Ctitle>
+          <Values> <br />
 
-          </p>
+          </Values>
         </Card>
       </Grid>
 

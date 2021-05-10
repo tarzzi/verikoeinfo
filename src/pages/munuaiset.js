@@ -3,6 +3,8 @@ import Layout from "../components/layout"
 import Grid from "../components/grid"
 import Card from "../components/card"
 import Title from "../components/title"
+import Ctitle from "../components/cTitle"
+import Values from "../components/Values"
 
 export default function Munuaiset() {
   return (
@@ -11,16 +13,16 @@ export default function Munuaiset() {
 
       <Grid>
         <Card>
-          <h1>P-KREA | Kreatiini</h1>
-          <p></p>
+          <Ctitle>P-KREA | Kreatiini</Ctitle>
+          <Values></Values>
         </Card>
         <Card>
-          <h1>U-K | Kalium</h1>
-          <p></p>
+          <Ctitle>U-K | Kalium</Ctitle>
+          <Values></Values>
         </Card>
         <Card>
-          <h1>U-NA | Natrium </h1>
-          <p></p>
+          <Ctitle>U-NA | Natrium </Ctitle>
+          <Values></Values>
         </Card>
       </Grid>
     </Layout>

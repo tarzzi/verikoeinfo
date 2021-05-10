@@ -3,6 +3,8 @@ import Layout from "../components/layout"
 import Grid from "../components/grid"
 import Card from "../components/card"
 import Title from "../components/title"
+import Ctitle from "../components/cTitle"
+import Values from "../components/Values"
 
 export default function Virtsa() {
   return (
@@ -10,43 +12,43 @@ export default function Virtsa() {
       <Title>Virtsakokeet</Title>
       <Grid>
         <Card>
-            <h1>U-Gluk-O</h1>
-            <p> alle 3 mmol/l <br />
+            <Ctitle>U-Gluk-O</Ctitle>
+            <Values> alle 3 mmol/l <br />
 
-            </p>
+            </Values>
         </Card>
         <Card>
-          <h1>U-Leuk-O</h1>
-          <p> alle 20 leuk x 106/l <br />
+          <Ctitle>U-Leuk-O</Ctitle>
+          <Values> alle 20 leuk x 106/l <br />
 
-          </p>
+          </Values>
         </Card>
         <Card>
-          <h1>U-Prot-O</h1>
-          <p> alle 0.2 g/l <br />
+          <Ctitle>U-Prot-O</Ctitle>
+          <Values> alle 0.2 g/l <br />
 
-          </p>
+          </Values>
         </Card>
         <Card>
-          <h1>U-Hb-O</h1>
-          <p>alle 10 eryt x 106/l <br />
+          <Ctitle>U-Hb-O</Ctitle>
+          <Values>alle 10 eryt x 106/l <br />
 
-          </p>
+          </Values>
         </Card>
         <Card>
-          <h1>U-solut</h1>
-          <p>
+          <Ctitle>U-solut</Ctitle>
+          <Values>
             Erytrosyytit	alle 20 x 10^6/l<br />
             Leukosyytit	alle 10 x 10^6/l<br />
             Levyepiteelisolut	alle 10 x 10^6/l<br />
             Pienet epiteelisolut	alle 1 x 10^6/l<br />
             Lieriöt	alle 1 x 10^6/l
-          </p>
+          </Values>
         </Card>
         <Card>
-          <h1>U-Bakt-Vi</h1>
-          <p>Bakteeriviljelyä käytetään virtsatulehduksen diagnosointiin. <br />Tulos on joko POS (Positiivinen) tai NEG (Negatiivinen)
-          </p>
+          <Ctitle>U-Bakt-Vi</Ctitle>
+          <Values>Bakteeriviljelyä käytetään virtsatulehduksen diagnosointiin. <br />Tulos on joko POS (Positiivinen) tai NEG (Negatiivinen)
+          </Values>
         </Card>
       </Grid>
     </Layout>
