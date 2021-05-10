@@ -1,5 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
+import Grid from "../components/grid"
+import Card from "../components/card"
 
 export default function Sokeri() {
   return (
@@ -13,6 +15,26 @@ export default function Sokeri() {
         HBA1C -määritystä käytetään sekä tyypin I että tyypin II diabetestä sairastavien henkilöiden verensokeritason pitkäaikaisessa seurannassa ja diabeteksen diagnosoinnissa. Koholla oleva HbA1c-tulos viittaa epätasapainossa olevaan diabetekseen.
 
       </p>
+      <Grid>
+        <Card>
+          <h1>GLUK</h1>
+          <p>
+            Viitearvo:
+          </p>
+        </Card>
+        <Card>
+          <h1>GLUK-rasitus</h1>
+          <p>
+            Viitearvo:
+          </p>
+        </Card>
+        <Card>
+          <h1>GHBA1C</h1>
+          <p>
+            Viitearvo:
+          </p>
+        </Card>
+      </Grid>
     </Layout>
   );
 }

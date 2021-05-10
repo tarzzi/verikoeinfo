@@ -1,5 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
+import Grid from "../components/grid"
+import Card from "../components/card"
 
 export default function Tulehdus() {
   return (
@@ -15,6 +17,21 @@ export default function Tulehdus() {
         LA eli lasko kertoo punasolujen laskeutumisnopeudesta ja on epäspesifinen analyysi, jota usein käytetään erilaisten tautitilojen aktiivisuuden osoittamiseen. Joidenkin sairaustilojen (mm. krooniset tulehdukset ja reumataudit) yhteydessä punasolut laskeutuvat verinäytteessä nopeammin. Lasko kasvaa myös iän myötä.
 
       </p>
+      <Grid>
+        <Card>
+          <h1>CRP</h1>
+          <p>
+            Viitearvo:
+          </p>
+        </Card>
+        <Card>
+          <h1>LA</h1>
+          <p>
+            Viitearvo:
+          </p>
+        </Card>
+
+      </Grid>
     </Layout>
   );
 }
