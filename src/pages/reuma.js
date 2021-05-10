@@ -2,11 +2,12 @@ import React from "react"
 import Layout from "../components/layout"
 import Grid from "../components/grid"
 import Card from "../components/card"
+import Title from "../components/title"
 
 export default function Reuma() {
   return (
     <Layout>
-      <h1>Reumakokeet</h1>
+      <Title>Reumakokeet</Title>
       <p>
 
         Reumafaktoritutkimuksessa (RF) määritetään ryhmä elimistön autovasta-aineita ja sitä käytetään autoimmuunisairauksien (reumataudit), niveltulehdusten ja sidekudossairauksien diagnostiikassa. Reumafaktoritutkimus ei erottele hyvin nivelreumaa muista sidekudostaudeista, joissa arvo saattaa olla myös suurentunut. Kohonneita arvoja tavataan jonkin verran myös terveillä ihmisillä. Arvo voi myös olla normaali nivelreuman alkuvaiheessa ja toisaalta koholla muissakin tautitiloissa.
@@ -17,11 +18,11 @@ export default function Reuma() {
       <Grid>
         <Card>
           <h1>P-RF</h1>
-          <p>Viitearvo:</p>
+          <p></p>
         </Card>
         <Card>
           <h1>CCPAb</h1>
-          <p>Viitearvo:</p>
+          <p></p>
 
         </Card>
       </Grid>

@@ -8,8 +8,8 @@ export default function Layout({ children }) {
   return (
 <>
   <Header />
-  <div id='top' className='mt-5 pt-4 text-center mx-auto'>
-    <Link className='border-2 border-gray-400 rounded-2xl px-4 py-2 hover:bg-gray-800 hover:text-white font-bold lg:text-2xl md:text-xl sm:text-lg text-lg' to='/'>Palaa takaisin</Link>
+  <div className='text-center mx-auto'>
+    <Link className='border-b-2 border-gray-400 w-full block py-2 hover:bg-gray-800 hover:text-white font-bold lg:text-2xl md:text-xl sm:text-lg text-lg' to='/'>Palaa takaisin</Link>
   </div>
     <div className='lg:mx-12 md:mx-8 sm:mx-6 mx-6 my-8'>
       {children}

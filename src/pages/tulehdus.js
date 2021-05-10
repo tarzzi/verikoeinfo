@@ -2,11 +2,12 @@ import React from "react"
 import Layout from "../components/layout"
 import Grid from "../components/grid"
 import Card from "../components/card"
+import Title from "../components/title"
 
 export default function Tulehdus() {
   return (
     <Layout>
-      <h1>Tulehduskokeet (CRP ja LA)</h1>
+      <Title>Tulehduskokeet (CRP ja LA)</Title>
       <p>
 
         Kun epäillään tulehdusta, mitataan hyvin usein S-CRP, joka kertoo seerumin tietyn proteiinin pitoisuudesta. Se kohoaa erityisesti bakteeritulehduksien yhteydessä ja voi kertoa myös monista muista sairauksista.
@@ -21,13 +22,13 @@ export default function Tulehdus() {
         <Card>
           <h1>CRP</h1>
           <p>
-            Viitearvo:
+
           </p>
         </Card>
         <Card>
           <h1>LA</h1>
           <p>
-            Viitearvo:
+
           </p>
         </Card>
 

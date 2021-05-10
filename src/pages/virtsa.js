@@ -2,39 +2,40 @@ import React from "react"
 import Layout from "../components/layout"
 import Grid from "../components/grid"
 import Card from "../components/card"
+import Title from "../components/title"
 
 export default function Virtsa() {
   return (
     <Layout>
-      <h1>Virtsakokeet</h1>
+      <Title>Virtsakokeet</Title>
       <Grid>
         <Card>
             <h1>U-Gluk-O</h1>
-            <p>Viitearvo: alle 3 mmol/l <br />
+            <p> alle 3 mmol/l <br />
 
             </p>
         </Card>
         <Card>
           <h1>U-Leuk-O</h1>
-          <p>Viitearvo: alle 20 leuk x 106/l <br />
+          <p> alle 20 leuk x 106/l <br />
 
           </p>
         </Card>
         <Card>
           <h1>U-Prot-O</h1>
-          <p>Viitearvo: alle 0.2 g/l <br />
+          <p> alle 0.2 g/l <br />
 
           </p>
         </Card>
         <Card>
           <h1>U-Hb-O</h1>
-          <p>Viitearvot: alle 10 eryt x 106/l <br />
+          <p>alle 10 eryt x 106/l <br />
 
           </p>
         </Card>
         <Card>
           <h1>U-solut</h1>
-          <p>Viitearvot: <br />
+          <p>
             Erytrosyytit	alle 20 x 10^6/l<br />
             Leukosyytit	alle 10 x 10^6/l<br />
             Levyepiteelisolut	alle 10 x 10^6/l<br />

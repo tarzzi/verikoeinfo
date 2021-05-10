@@ -2,11 +2,12 @@ import React from "react"
 import Layout from "../components/layout"
 import Grid from "../components/grid"
 import Card from "../components/card"
+import Title from "../components/title"
 
 export default function Rasva() {
   return (
     <Layout>
-      <h1>Rasvakokeet</h1>
+      <Title>Rasvakokeet</Title>
 
       <Grid>
         <Card>
@@ -15,25 +16,25 @@ export default function Rasva() {
 
           </p>
         </Card>
-        <Card className="">
+        <Card>
           <h1>fS-KOL | Kolesteroli</h1>
           <p> <br />
 
           </p>
         </Card>
-        <Card className="">
+        <Card>
           <h1>fS-HDL</h1>
           <p> <br />
 
           </p>
         </Card>
-        <Card className="">
+        <Card>
           <h1>fS-LDL</h1>
           <p> <br />
 
           </p>
         </Card>
-        <Card className="">
+        <Card>
           <h1>fS-TRIGLY</h1>
           <p> <br />
 
