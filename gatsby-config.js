@@ -17,7 +17,8 @@ module.exports = {
       options: {
         pathToConfigModule: `./src/utils/typography`,
       },
-    }, `gatsby-plugin-postcss`,
+    },
+    `gatsby-plugin-postcss`,
       {
         resolve: `gatsby-plugin-google-analytics`,
         options: {
@@ -25,12 +26,6 @@ module.exports = {
           trackingId: "G-C9XRNM6GQY",
           // Defines where to place the tracking script - `true` in the head and `false` in the body
           head: true,
-          // Setting this parameter is optional
-          anonymize: true,
-          // Setting this parameter is also optional
-          respectDNT: true,
-          // Defers execution of google analytics script after page load
-          defer: false,
         },
       },
   ],

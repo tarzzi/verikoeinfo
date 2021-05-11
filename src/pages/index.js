@@ -13,7 +13,6 @@ export default function Home() {
     </Helmet>
     <Header />
     <div className='text-center lg:text-3xl md:text-3xl sm:text-2xl py-3 my-1'>Valitse kokeen kategoria, niin näet tarkemmat tiedot</div>
-    <div className='text-center lg:text-xl md:text-xl sm:text-md py-3 my-1 font-bold'> 🚧 Sivusto on työn alla ja harrastepohjainen 🚧 <br /></div>
     <div className="grid lg:grid-cols-3 lg:text-3xl md:grid-cols-3 md:text-2xl sm:grid-cols-1 sm:text-2xl text-3xl grid-cols-1 justify-center items-center transition-all duration-100 bg-white">
         <Link to='/kilpirauhanen' className="border-2 border-gray-400 bg-gray-200 hover:bg-gray-700 hover:text-white py-8 lg:py-16 md:py-16 sm:py-8 text-center ">Kilpirauhanen</Link>
         <Link to='/maksa'         className="border-2 border-gray-400 bg-gray-200 hover:bg-gray-700 hover:text-white py-8 lg:py-16 md:py-16 sm:py-8 text-center ">Maksa</Link>
