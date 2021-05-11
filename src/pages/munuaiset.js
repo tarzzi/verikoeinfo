@@ -14,15 +14,41 @@ export default function Munuaiset() {
       <Grid>
         <Card>
           <Ctitle>P-KREA | Kreatiini</Ctitle>
-          <Values></Values>
+          <Values>
+            Miehet: 60–100 µmol/l<br />
+            Naiset: 50–90 µmol/l</Values>
         </Card>
         <Card>
-          <Ctitle>U-K | Kalium</Ctitle>
-          <Values></Values>
+          <Ctitle>P-K | Kalium verestä</Ctitle>
+          <Values>
+            3,3–4,9 mmol/l
+          </Values>
         </Card>
         <Card>
-          <Ctitle>U-NA | Natrium </Ctitle>
-          <Values></Values>
+          <Ctitle>dU-K | Kalium virtsasta </Ctitle>
+          <Values>
+            Naiset<br />
+            6 - 10v	8-37 mmol/d<br />
+            10-15v	18-58 mmol/d<br />
+            ≥15v	25-125 mmol/d<br />
+            Miehet<br />
+            6-10v 17-54 mmol/d<br />
+            10-15v	22-57 mmol/d<br />
+            ≥15v	25-125 mmol/d<br />
+          </Values>
+        </Card>
+        <Card>
+          <Ctitle>P-NA | Natrium verestä</Ctitle>
+          <Values>
+            Lapset, 0 - 16v	30 - 140 mmol/l<br />
+            Aikuiset, yli 16v	80 - 240 mmol/l
+          </Values>
+        </Card>
+        <Card>
+          <Ctitle>U-NA | Natrium virtsasta</Ctitle>
+          <Values>
+            Kaikki:	137 - 145	mmol/l
+          </Values>
         </Card>
       </Grid>
     </Layout>

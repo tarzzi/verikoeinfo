@@ -12,7 +12,7 @@ export default function Verenkuva() {
       <Title>Verenkuvan tutkimukset</Title>
       <Grid>
         <Card>
-          <Ctitle>B-Hb | hemoglobiini</Ctitle>
+          <Ctitle>B-Hb | Hemoglobiini</Ctitle>
           <Values>
             Miehet: 134–167 g/l <br />
             Naiset: 117–155 g/l<br />
@@ -22,40 +22,38 @@ export default function Verenkuva() {
             7v: 130-140 g/l</Values>
         </Card>
         <Card>
-          <Ctitle> B-Hkr | hematokriitti</Ctitle>
+          <Ctitle> B-Hkr | Hematokriitti</Ctitle>
           <Values>
             Miehet: 39–50 %<br />
             Naiset: 35–46 %<br />
           </Values>
         </Card>
         <Card>
-          <Ctitle> B-Eryt | erytrosyytit eli punasolut</Ctitle>
+          <Ctitle> B-Eryt | Erytrosyytit eli punasolut</Ctitle>
           <Values>
             Miehet: 4,25–5,70 x E12/l<br />
             Naiset: 3,90–5,20 x E12/l<br />
           </Values>
         </Card>
         <Card>
-          <Ctitle> B-Leuk | leukosyytit eli valkosolut</Ctitle>
+          <Ctitle> B-Leuk | Leukosyytit eli valkosolut</Ctitle>
           <Values>
           Aikuisille: 3.4–8.2 E9/l</Values>
         </Card>
         <Card>
-          <Ctitle>E-MCH | punasolujen hemoglobiinin massa</Ctitle>
+          <Ctitle>E-MCH | Punasolujen hemoglobiinin massa</Ctitle>
           <Values>
             27-33 pg/punasolu</Values>
         </Card>
         <Card>
-          <Ctitle>E-MCHC | punasolujen massakonsentraatio</Ctitle>
+          <Ctitle>E-MCHC | Punasolujen massakonsentraatio</Ctitle>
           <Values>
-
-            320-355 g/l
+           320-355 g/l
           </Values>
         </Card>
         <Card>
-          <Ctitle>E-MCV | punasolujen keskitilavuus </Ctitle>
+          <Ctitle>E-MCV | Punasolujen keskitilavuus </Ctitle>
           <Values>
-
             82-98 fl
           </Values>
         </Card>

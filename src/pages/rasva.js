@@ -13,37 +13,31 @@ export default function Rasva() {
 
       <Grid>
         <Card>
-          <Ctitle>fS-LIPIDIT | Veren</Ctitle>
-          <Values> <br />
-
-          </Values>
-        </Card>
-        <Card>
           <Ctitle>fS-KOL | Kolesteroli</Ctitle>
-          <Values> <br />
-
+          <Values>
+            Aikuisilla tavoite alle 5.0 mmol/l
           </Values>
         </Card>
         <Card>
           <Ctitle>fS-HDL</Ctitle>
-          <Values> <br />
-
+          <Values>
+            Naiset:  >1.20 mmol/l<br />
+            Miehet: >1,0 mmol/l
           </Values>
         </Card>
         <Card>
           <Ctitle>fS-LDL</Ctitle>
-          <Values> <br />
-
+          <Values>
+            Kaikki: Alle 3.00 mmol/l
           </Values>
         </Card>
         <Card>
           <Ctitle>fS-TRIGLY</Ctitle>
-          <Values> <br />
-
+          <Values>
+            Kaikki: Alle 1.70 mmol/l
           </Values>
         </Card>
       </Grid>
-
     </Layout>
   );
 }
