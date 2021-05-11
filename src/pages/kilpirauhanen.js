@@ -32,7 +32,6 @@ export default function Kilpirauha() {
           Kaikki: 3,5-6,5 pmol/l</Values>
         </Card>
       </Grid>
-
     </Layout>
   );
 }
