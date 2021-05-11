@@ -1,6 +1,6 @@
 import "@fontsource/lora"
 import "@fontsource/varela"
-import React from "react"
+import React, { Component }  from 'react';
 import Link from "gatsby-link"
 import Header from '../components/header'
 
