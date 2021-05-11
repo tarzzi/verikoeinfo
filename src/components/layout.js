@@ -1,6 +1,6 @@
 import "@fontsource/lora"
 import "@fontsource/varela"
-import React, { Component }  from 'react';
+import React from 'react';
 import Link from "gatsby-link"
 import Header from '../components/header'
 
@@ -14,7 +14,7 @@ export default function Layout({ children }) {
     <div className='lg:mx-12 md:mx-8 sm:mx-6 mx-6 my-8'>
       {children}
     </div>
-  <div className='text-center text-4xl my-4'>
+  <div className='text-center text-4xl my-4 lg:hidden md:hidden'>
     <Link to='#top'><span role='img'>⬆</span></Link>
   </div>
 </>
