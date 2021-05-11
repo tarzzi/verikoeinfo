@@ -4,7 +4,7 @@ import Grid from "../components/grid"
 import Card from "../components/card"
 import Title from "../components/title"
 import Ctitle from "../components/cTitle"
-import Values from "../components/Values"
+import Values from "../components/values"
 
 export default function Reuma() {
   return (
