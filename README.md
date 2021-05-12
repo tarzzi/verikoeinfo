@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Verikoe.info
+  Veriarvot.info
 </h1>
 <p>Projekti johon sain intoa kun joku pohti tutkimustuloksiaan katsoessa, mistä löytäisi helposti ja nopeasti eri verikokeiden viitearvot ja mitä ne tarkoittavat. <br />Projekti myös harjoituksena minulle Gatsby:n maailmaan tutustumisessa, sekä käyttäjäkokemuksen luonnissa ottaen huomioon ikänäköä ja helppokäyttöisyyttä.</p>
-<p>Tulos nähtävillä osoitteessa <a href="https://verikoe.info">verikoe.info</a></p>
+<p>Tulos nähtävillä osoitteessa <a href="https://veriarvot.info">verikoe.info</a></p>
