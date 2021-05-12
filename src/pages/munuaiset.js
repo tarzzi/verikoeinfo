@@ -5,12 +5,15 @@ import Card from "../components/card"
 import Title from "../components/title"
 import Ctitle from "../components/cTitle"
 import Values from "../components/values"
+import Info from "../components/info"
 
 export default function Munuaiset() {
   return (
     <Layout>
-      <Title>Munuais- ja nestetasapainokokeet</Title>
-
+      <div className='my-8 mx-2 p-5 text-2xl shadow-md'>
+        <Title>Munuais- ja nestetasapainokokeet</Title>
+        <Info>Munuaistutkimuksilla seurataan munuaisten suodatuskykyä. Tutkimuksia otetaan säännöllisesti etenkin diabetesta sairastavilta.</Info>
+      </div>
       <Grid>
         <Card>
           <Ctitle>P-KREA | Kreatiini</Ctitle>

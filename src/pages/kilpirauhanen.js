@@ -5,12 +5,15 @@ import Card from "../components/card"
 import Title from "../components/title"
 import Ctitle from "../components/cTitle"
 import Values from "../components/values"
+import Info from "../components/info"
 
 export default function Kilpirauha() {
   return (
     <Layout>
-      <div className='my-8 mx-2 p-5 text-2xl'>
+      <div className='my-8 mx-2 p-5 text-2xl shadow-md'>
         <Title className='text-center'>Kilpirauhaskokeet</Title>
+        <Info>Kilpirauhasen tuottama tyroksiinihormoni on ihmiselle välttämätön aineenvaihduntaa säätelevä hormoni.<br />
+          Kilpirauhasen toimintahäiriötä epäillessä, tehdään kilpirauhastutkimukset.</Info>
       </div>
       <Grid>
         <Card>

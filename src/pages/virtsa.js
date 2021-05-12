@@ -5,11 +5,17 @@ import Card from "../components/card"
 import Title from "../components/title"
 import Ctitle from "../components/cTitle"
 import Values from "../components/values"
+import Info from "../components/info"
 
 export default function Virtsa() {
   return (
     <Layout>
+      <div className='my-8 mx-2 p-5 text-2xl shadow-md'>
       <Title>Virtsakokeet</Title>
+      <Info>
+      Virtsatutkimuksilla seurataan munuaisten, virtsateiden tai virtsarakon sairauksia.
+      </Info>
+      </div>
       <Grid>
         <Card>
             <Ctitle>U-Gluk-O</Ctitle>

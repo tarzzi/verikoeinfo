@@ -5,11 +5,15 @@ import Card from "../components/card"
 import Title from "../components/title"
 import Ctitle from "../components/cTitle"
 import Values from "../components/values"
+import Info from "../components/info"
 
 export default function Maksa() {
   return (
     <Layout>
-      <Title>Maksakokeet</Title>
+      <div className='my-8 mx-2 p-5 text-2xl shadow-md'>
+        <Title>Maksakokeet</Title>
+        <Info>Maksatutkimuksilla mitataan maksan toimintakykyä, etenkin maksasairauksien seurannan vuoksi.</Info>
+      </div>
       <Grid>
         <Card>
           <Ctitle>P-ALAT | Alaniiniaminotransferaasi</Ctitle>
@@ -17,6 +21,12 @@ export default function Maksa() {
             Lapset, 0 - 16 v	alle 40	U/l<br />
             Miehet, alkaen 17 v	alle 50	U/l<br />
             Naiset, alkaen 17 v	alle 35	U/l<br />
+          </Values>
+        </Card>
+        <Card>
+          <Ctitle>P-AFOS | Alkalinen fosfataasi</Ctitle>
+          <Values>
+            Yli 18v: 35 - 105 U/l
           </Values>
         </Card>
         <Card className="my-8 mx-2">

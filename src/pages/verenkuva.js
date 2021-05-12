@@ -5,11 +5,17 @@ import Card from "../components/card"
 import Title from "../components/title"
 import Ctitle from "../components/cTitle"
 import Values from "../components/values"
+import Info from "../components/info"
 
 export default function Verenkuva() {
   return (
     <Layout>
+      <div className='my-8 mx-2 p-5 text-2xl shadow-md'>
       <Title>Verenkuvan tutkimukset</Title>
+      <Info>
+      Perusverenkuvan tutkimuksella (B-PVK) voidaan havaita eri sairauksia tai kehon häiriöitä.
+      </Info>
+      </div>
       <Grid>
         <Card>
           <Ctitle>B-Hb | Hemoglobiini</Ctitle>

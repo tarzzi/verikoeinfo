@@ -5,11 +5,17 @@ import Card from "../components/card"
 import Title from "../components/title"
 import Ctitle from "../components/cTitle"
 import Values from "../components/values"
+import Info from "../components/info"
 
 export default function Sokeri() {
   return (
     <Layout>
-      <Title>Sokerikokeet GHBA1C)</Title>
+      <div className='my-8 mx-2 p-5 text-2xl shadow-md'>
+        <Title>Sokerikokeet</Title>
+        <Info>
+        Sokerikokeilla mitataan verensokerin vaihtelua vuorokauden tai rasituksen mukaan, etenkin diabeteksen seurannassa.
+        </Info>
+      </div>
       <Grid>
         <Card>
           <Ctitle>fP-GLUK | Paastoverensokeri</Ctitle>

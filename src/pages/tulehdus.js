@@ -5,11 +5,17 @@ import Card from "../components/card"
 import Title from "../components/title"
 import Ctitle from "../components/cTitle"
 import Values from "../components/values"
+import Info from "../components/info"
 
 export default function Tulehdus() {
   return (
     <Layout>
-      <Title>Tulehduskokeet</Title>
+      <div className='my-8 mx-2 p-5 text-2xl shadow-md'>
+        <Title>Tulehduskokeet</Title>
+        <Info>
+        Tulehduskokeilla mitataan eri tulehdustautien aiheuttamien tulehdusarvojen tasoja.
+        </Info>
+      </div>
       <Grid>
         <Card>
           <Ctitle>P-CRP | Tulehdusarvo</Ctitle>

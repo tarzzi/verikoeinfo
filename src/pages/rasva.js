@@ -5,12 +5,17 @@ import Card from "../components/card"
 import Title from "../components/title"
 import Ctitle from "../components/cTitle"
 import Values from "../components/values"
+import Info from "../components/info"
 
 export default function Rasva() {
   return (
     <Layout>
-      <Title>Rasvakokeet</Title>
-
+      <div className='my-8 mx-2 p-5 text-2xl shadow-md'>
+        <Title>Rasvakokeet</Title>
+        <Info>
+        Rasvatutkimuksilla seurataan rasva-aineenvaihdunnan tasoa, johon kuuluu tunnetuimpana kolesterolin mittaus.
+        </Info>
+      </div>
       <Grid>
         <Card>
           <Ctitle>fS-KOL | Kolesteroli</Ctitle>
